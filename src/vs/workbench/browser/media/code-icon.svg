@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="ocnGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2D5AF0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00D4FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect x="32" y="32" width="960" height="960" rx="192" ry="192" fill="url(#ocnGrad)"/>
+  <text x="512" y="580" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="352" fill="#FFFFFF" text-anchor="middle" letter-spacing="-8">OCN</text>
+  <text x="512" y="780" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="300" font-size="80" fill="rgba(255,255,255,0.6)" text-anchor="middle" letter-spacing="16">IDE</text>
+</svg>

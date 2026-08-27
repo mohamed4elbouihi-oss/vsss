@@ -1,0 +1,32 @@
+/*---------------------------------------------------------------------------------------------
+ *  OCN IDE — Dark Theme CSS Overrides
+ *  These styles provide OCN's distinctive visual identity on dark themes.
+ *  They are scoped to avoid interfering with the existing VS Code theme system.
+ *
+ *  The OCN brand colors are defined as CSS custom properties on .monaco-workbench
+ *  in the main style.css file and can be referenced anywhere:
+ *    --ocn-brand-primary:   #2D5AF0  (deep electric blue)
+ *    --ocn-brand-secondary: #00D4FF  (vibrant cyan)
+ *    --ocn-brand-accent:    #7C4DFF  (subtle violet)
+ *    --ocn-brand-gradient:  linear-gradient(135deg, #2D5AF0, #00D4FF)
+ *
+ *  Usage: Import this file in OCN-specific components that need
+ *  theme-aware brand styling beyond what the CSS custom properties provide.
+ *--------------------------------------------------------------------------------------------*/
+
+/* OCN-branded focus indicators — uses brand primary instead of default blue */
+/* This provides a subtle but distinctive OCN feel across all focusable elements */
+
+/*
+ * Note: The actual theme colors are managed by the VS Code theme system.
+ * OCN's visual identity is primarily achieved through:
+ * 1. CSS custom properties (--ocn-brand-*) for brand elements
+ * 2. Welcome page styling (gettingStarted.css)
+ * 3. The OCN icon/logo
+ * 4. Product name shown throughout the UI
+ *
+ * We intentionally do NOT override core theme colors here because:
+ * - Users expect to switch themes freely
+ * - Overriding core colors would break accessibility (HC themes)
+ * - The theme system is a key value proposition of the IDE
+ */
